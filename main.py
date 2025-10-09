@@ -129,7 +129,7 @@ class LcdOptionsMenu:
             elif self.selected_index == 0:
                 self.top_item_index = 0
             self.dirty = True
-        elif key_str in ('enter', '\r'):
+        elif key_str in ('enter', '\r','\n'):
             return self.items[self.selected_index]
         elif key_str in ('`', '\x1b'):
             return 'close'
@@ -454,7 +454,7 @@ def handle_input():
                 elif key_string == '\t':
                     is_menu_active = True
                     options_menu.show()
-                elif key_string in ('enter', '\r'):
+                elif key_string in ('enter', '\r','\n'):
                     translate()
                 elif key_string == '\x08':  # Backspace
                     input_string = input_string[:-1]
