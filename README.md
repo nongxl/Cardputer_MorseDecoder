@@ -23,8 +23,4 @@
 
 ## 如何部署
 
-*  访问[uiflow2.m5stack.com](https://uiflow2.m5stack.com/)，导入.m5f2项目文件
-*  连接你的cardputer，运行代码
-
-> **关于 `.bin` 固件的说明：**
-> 我不知道如何把固件导出成.bin文件，我试过将代码固化到M5Stack官方的UIFlow2.0项目中或者micropython项目中进行编译，也试过M5burner的导出功能均不能实现，可能是我开发环境的原因我暂时无法解决。如果谁可以制作这个项目的.bin固件，请也发给我一份，谢谢。
+*  现在你可以从M5buner安装这款应用了
